@@ -1,0 +1,21 @@
+body{
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
+}
+
+h2,h3{
+    color: rgb(119, 175, 243);
+}
+
+strong{
+    color: rgb(33, 33, 163);
+}
+
+span{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}

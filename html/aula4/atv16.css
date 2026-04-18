@@ -1,0 +1,14 @@
+body{
+    background-color: rgba(173, 172, 172, 0.723);
+}
+
+
+h1,h2,h3{
+    color: rgb(92, 10, 103);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(17, 111, 149, 0.64)[];
+}
