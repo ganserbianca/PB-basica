@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    margin: 5px;
+}
+
+button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+    background-color: rgb(199, 193, 193);
+    border-radius: 8px;
+    border:none;
+}
+
+.container{
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caixa1{
+   
+    width: 100px;
+    height: 100px;
+    background-color: #DB04A7;
+
+}
+
+.caixa2{
+    width: 100px;
+    height: 100px;
+    background-color:#046CDB;
+}
+
+.caixa3{
+    width: 100px;
+    height: 100px;
+    background-color: #DB8D04;
+}
+
+.caixa4{
+    width: 100px;
+    height: 100px;
+    background-color: #862F71;
+}
