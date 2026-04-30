@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagem {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.dvd{
+    width: 120px;
+    position: absolute;
+    animation: 
+    moverX 6s linear infinite alternate,
+    moverY 7s linear infinite alternate,
+    cor 5s linear infinite;
+    
+    filter: drop-shadow(0 0 10px #04046f); /
+
+}
+
+@keyframes moverX{
+    from{left: 0;}
+    to{left: calc(100vw - 120px);}
+}
+
+@keyframes moverY{
+    from {top:0;}
+    to {top: calc(100vh - 120px);}
+
+}
+
+@keyframes cor{
+    from{
+        filter: hue-rotate(0deg);
+    }
+    to{
+        filter: hue-rotate(360deg);
+    }
+}
+
+
