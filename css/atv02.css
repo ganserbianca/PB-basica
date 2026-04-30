@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+}
+
+.item1 {
+  grid-column: span 2;
+  background-color: lightblue;
+}
+
+.item5 {
+  background-color: lightpink;
+  grid-row: span 2;
+}
+div {
+  border: 1px solid black;
+}

@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  justify-items: end;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 100px);
+}
+
+.item {
+  background-color: lightblue;
+  width: 100px;
+}
+div {
+  border: 1px solid black;
+}

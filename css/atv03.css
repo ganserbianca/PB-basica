@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu conteudo"
+    "menu conteudo"
+    "rodape rodape";
+  grid-template-columns: 1fr 2fr;
+}
+
+.header {
+  grid-area: header;
+  background-color: lightgreen;
+}
+
+.menu {
+  background-color: lightblue;
+  grid-area: menu;
+}
+
+.conteudo {
+  grid-area: conteudo;
+  background-color: lightpink;
+}
+
+.rodape {
+  background-color: lightyellow;
+  grid-area: rodape;
+}
+div {
+  border: 1px solid rgb(0, 0, 0);
+}

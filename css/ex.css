@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px;
+}
+
+.header {
+  background-color: lightblue;
+  width: 50px;
+  height: 50px;
+}
+
+.menu {
+  background-color: lightpink;
+  width: 50px;
+  height: 50px;
+}
+
+.content {
+  background-color: lightyellow;
+  width: 50px;
+  height: 50px;
+}
+
+.footer {
+  background-color: rgb(239, 156, 255);
+  width: 50px;
+  height: 50px;
+}
+
+div {
+  border: 1px dashed rgb(255, 0, 0);
+}

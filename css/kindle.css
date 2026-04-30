@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  padding: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: lighter;
+  color: #4693e1;
+}
+
+nav {
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
